@@ -6,9 +6,10 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss()
+    tailwindcss(),
   ],
   define: {
     global: 'window',
   },
+  base: process.env.VITE_BASE_PATH || "react-vite-deploy"
 })
