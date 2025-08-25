@@ -1,10 +1,11 @@
 import './App.css'
+import JSEditor from './components/JsEditor'
 
 function App() {
 
   return (
     <div>
-      <h1>React Draft.js Editor</h1>
+      <JSEditor />
     </div>
   )
 }
